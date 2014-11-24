@@ -37,7 +37,7 @@ class JaredWeather
 
   def default
     forecast = weather.current
-    puts forecast.temp_f + "Degrees Farenihight.", forecast.weather + ".", forecast.wind_mph + " mile per hour winds from the #{forecast.wind_dir}."
+    puts forecast.temp_f + "Degrees Fahrenheit.", forecast.weather + ".", forecast.wind_mph + " mile per hour winds from the #{forecast.wind_dir}."
     notice
   end
 
