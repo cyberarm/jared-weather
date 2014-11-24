@@ -16,8 +16,9 @@ class JaredWeather
     weather.forecasts.each do |condition|
       puts "#{condition.title}."
       puts " #{condition.text}"
-      notice
+      puts
     end
+    notice
   end
 
   def today
